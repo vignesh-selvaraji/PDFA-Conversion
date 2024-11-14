@@ -1,0 +1,38 @@
+.DS_Store
+node_modules
+/dist
+build/
+.build/
+pc-auto-uploader-win32-x64/
+external_source/SKYPDFConversion/bin/
+external_source/SKYPDFConversion/obj/
+external_source/SKYPDFConversion/.vs/
+/installer
+yarn.lock
+package_lock.json
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Windows Installer files
+*.msi
+*.wixobj
+*.wixpdb
+/installer/InstallModules
+pc-auto-uploader*

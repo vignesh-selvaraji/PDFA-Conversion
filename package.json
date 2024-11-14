@@ -1,0 +1,50 @@
+{
+  "name": "PDF to PdfA conversion",
+  "author": "Author",
+  "version": "0.0.1",
+  "UniversalVersion": "0.0.1",
+  "description": "PDF to PdfA conversion",
+  "main": "electron/electron.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "app:preview": "npm run build && tsc"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "aport": "^2.0.0",
+    "child_process": "^1.0.2",
+    "electron-store": "^8.1.0",
+    "express": "^4.17.3",
+    "form-data": "^4.0.0",
+    "ghostscript4js": "^3.2.3",
+    "image-size": "^1.1.1",
+    "image-to-pdf": "^2.0.0",
+    "jimp": "^0.22.12",
+    "pinia": "^2.1.7",
+    "vue": "^3.2.0",
+    "vue-i18n": "^9.2.2",
+    "vue-lazyload": "^3.0.0",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.5.9",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.21.4",
+    "@types/node": "^18.19.14",
+    "@types/webfontloader": "^1.6.35",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "electron": "^29.1.6",
+    "electron-builder": "^24.13.3",
+    "eslint": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vite": "^4.2.0",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vue-tsc": "^2.0.26"
+  }
+}
